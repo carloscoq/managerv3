@@ -1,0 +1,19 @@
+/* Menu Navegação interna */
+#nav-wrap-interna #nav-interna .ui-accordion-header .ui-icon.ui-icon-triangle-1-s {
+	background-image: url(../img/icons/arrow-menu-open.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#nav-wrap-interna #nav-interna .ui-accordion-header .ui-icon.ui-icon-triangle-1-e {
+	background-image: url(../img/icons/arrow-menu-close.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/* END: Menu Navegação Interna */
+
+/* Search Input */
+.search-input {
+	padding-left: 0;
+	border-left: 1.2em solid #33333b;
+}
+/* END: Search Input */

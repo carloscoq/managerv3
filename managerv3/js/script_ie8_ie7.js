@@ -1,0 +1,4 @@
+jQuery(function() {
+	AjustaTabelaListagemIE();
+	AjustaTabelaPermissoesIE();
+});

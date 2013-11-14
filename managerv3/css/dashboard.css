@@ -1,0 +1,125 @@
+/* Dashboard 
+ * @section dashboard
+ */
+#main-wrap.dashboard #content-wrap {
+	width:932px;
+}
+#main-wrap.dashboard #content-wrap #content {
+	width: 100%;
+}
+
+.box.dashboard {
+	width: 932px;
+	margin: 0 0 0 -2px;
+}
+.box.dashboard .box-titulo {
+	display: inherit;
+}
+#dashboard-list {
+	width: 100%;
+	float:left;
+	position:relative;
+	background-image:url(../img/backgrounds/bg-divisoria.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#dashboard-list li {
+	float: left;
+	position: relative;
+	width: 50%;
+	background: transparent;
+	height: 212px;
+	margin: 1px 0;
+}
+#dashboard-list li ul {
+	list-style: disc;
+}
+#dashboard-list li ul li {
+	
+	width: auto;
+	height: auto;
+	float: inherit;
+}
+.dashboard-itens {
+	padding: 0;
+	width:60%;
+	height: 212px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #ffffff;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	-webkit-transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-o-transition: opacity 0.2s linear;
+}
+.dashboard-itens:hover {
+	color: #ffffff;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-o-transition: opacity 0.2s linear;
+}
+.dashboard-itens .dashboard-img,
+.dashboard-itens .dashboard-titulo,
+.dashboard-itens .dashboard-texto {
+	display: block;
+	float:left;
+	position:relative;
+	margin: 5px 0 0 14px;
+}
+.dashboard-itens .dashboard-titulo {
+	margin-top: 17px;
+}
+.dashboard-itens .dashboard-img {
+	margin: 13px 0 0 37px;
+}
+.dashboard-itens .dashboard-titulo,
+.dashboard-itens .dashboard-texto {
+	width: 60%;
+	text-shadow: 1px 1px 1px #000000;
+	-moz-text-shadow: 1px 1px 1px #000000;
+	-webkit-text-shadow: 1px 1px 1px #000000;
+	-o-text-shadow: 1px 1px 1px #000000;
+}
+.dashboard-itens .dashboard-titulo {
+	font-size: 30px;
+}
+.dashboard-itens .dashboard-texto {
+	font-size: 12px;
+}
+.dashboard-itens .dashboard-img.users {
+	margin: 28px 0 0 37px;
+}
+.dashboard-itens .dashboard-titulo.users,
+.dashboard-itens .dashboard-texto.users {
+	margin: 5px 0 0 21px;
+	width: 55%;
+}
+.dashboard-itens .dashboard-titulo.users {
+	margin-top: 34px;
+}
+.dashboard-itens .dashboard-img.email {
+	margin: 0px 0 0 40px;
+}
+.dashboard-itens .dashboard-titulo.email,
+.dashboard-itens .dashboard-texto.email {
+	margin: 5px 0 0 21px;
+	width: 55%;
+}
+.dashboard-itens .dashboard-titulo.email {
+	margin-top: 1px;
+}
+.dashboard-itens .dashboard-img.analytics {
+	margin: 2px 0 0 40px;
+}
+.dashboard-itens .dashboard-titulo.analytics,
+.dashboard-itens .dashboard-texto.analytics {
+	margin: 5px 0 0 21px;
+	width: 55%;
+}
+.dashboard-itens .dashboard-titulo.analytics {
+	margin-top: -19px;
+}
+/* END: dashboard */

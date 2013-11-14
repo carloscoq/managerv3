@@ -1,0 +1,6 @@
+A maior parte das funções de js estão no arquivo de funções.
+Como a função do botão de excluir algum codigo.
+
+Existe uma função de notificação que é usada em muitos outros lugares.
+O onclick que está no botão salvar so mostra a notificação então deve-se criar uma função que chame a notificação após, 
+e NÃO mexer não função de notificação.
