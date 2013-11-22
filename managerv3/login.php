@@ -19,9 +19,9 @@
 						<form action="javascript:;" method="post" class="form-class">
 							<div id="logar">
 								<input type="text" class="input-class mg-btt9"
-								placeholder="Email" />
+								placeholder="Email" id="login_input"/>
 								<input type="password" class="input-class mg-btt9"
-								placeholder="Password" />
+								placeholder="Password" id="password_input"/>
 								<p class="perdeu_senha">
 									<a href="javascript:;" id="esqueceu_senha">
 										Esqueceu sua senha?
@@ -30,7 +30,7 @@
 							</div>
 							<div id="recupera_senha">
 								<input type="text" class="input-class mg-btt9"
-								placeholder="Email" />
+								placeholder="Email" id="email_input"/>
 								<p class="perdeu_senha">
 									<a href="javascript:;" id="voltar_login">
 										voltar
@@ -40,7 +40,7 @@
 							<p class="msg-erro">
 								Por favor preencha corretamente os seus dados
 							</p>
-							<input type="submit" id="btn-login" />
+							<input type="submit" id="btn-login"/>
 						</form>
 					</div>
 					<div class="cAll"><!-- --></div>

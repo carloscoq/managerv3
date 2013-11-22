@@ -15,6 +15,7 @@ require 'core/controlaBuscaAvancada.js';
 require 'core/tooltip.js';
 require 'core/posicaoListagem.js';
 require 'core/core.js';
+require 'core/noticia.js';
 require 'script.js';
 
 ?>

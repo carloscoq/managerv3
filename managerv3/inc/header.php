@@ -1,4 +1,9 @@
-			<header id="header-wrap">
+<?php 
+session_start();
+if (!isset($_SESSION['usuario'])) {
+	header("Location:login.php");
+}?>
+		<header id="header-wrap">
 				<div id="header">
 					<div class="left">
 						<img src="img/temp/logo_temp.png" id="logo-cliente" />
@@ -9,13 +14,13 @@
 					<div class="right">
 						<p id="painel-usuario">
 							<span id="box-login">
-								<span id="nome-usuario">Felipe Seixas</span>
+								<span id="nome-usuario"><?php echo $_SESSION['usuario']?></span>
 								<span class="box-btn">
 									<a href="javascript:;" class="btn-editar">
 									<span class="ui-icon ui-icon-gear"></span>
 									<span class="editar fSize12">Editar</span>
 									</a>
-									<a href="javascript:;" class="btn-logout">
+									<a href="src/login/logout.php" class="btn-logout">
 										<span class="logout fSize12">Sair</span>
 									</a>
 								</span>

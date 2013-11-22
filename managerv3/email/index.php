@@ -49,7 +49,7 @@
                <td height="85">
                		<center>
                     	<font face="Verdana, Geneva, sans-serif" color="#ffffff" style="font-size: 20px;">
-                        	Olá Usuário
+                        	Ol&aacute; Usuário
                         </font>
                     </center>
                </td>

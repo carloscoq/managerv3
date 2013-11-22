@@ -6,6 +6,7 @@ var Browser = function() {
 	this.type= this.getType();
 	this.system = this.getSystem();
 };
+
 Browser.prototype.getType = function() {
 	var b = navigator.userAgent;
 	if(b.indexOf('MSIE') != -1) {
